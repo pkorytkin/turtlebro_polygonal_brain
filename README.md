@@ -11,10 +11,15 @@ source /opt/ros/noetic/setup.bash
 echo "source ${HOME}/catkin_ws/devel/setup.bash" >> ~/.bashrc
 
 source ~/.bashrc
+
 Run:
+
 roscore
-rosrun turtlebro_polygonal_brain brain.py 
+
+rosrun turtlebro_polygonal_brain brain.py
+
 or
+
 roslaunch turtlebro_polygonal_brain launch.launch 
 
 
